@@ -37,6 +37,7 @@ export default class Todu extends Component {
   render() {
     return (
       <div className='todo'><center>
+          <h1>welcome</h1>
        <input type='text' onChange={this.inputData}/>
        <input type='submit' value='add' onClick={this.addItem}/>
 
