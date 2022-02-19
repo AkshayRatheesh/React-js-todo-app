@@ -12,7 +12,7 @@ export default class Todu extends Component {
     }
 
     inputData=(e)=>{
-        this.setState({inDatas:e.target.value})
+        this.setState({inDatas:e.target.value}) 
     }
 
     addItem=()=>{
@@ -37,7 +37,7 @@ export default class Todu extends Component {
   render() {
     return (
       <div className='todo'><center>
-          <h1>welcome</h1>
+          <h1>CREATE LIST</h1>
        <input type='text' onChange={this.inputData}/>
        <input type='submit' value='add' onClick={this.addItem}/>
 
@@ -55,7 +55,7 @@ export default class Todu extends Component {
                }
            
        </ul>
-<p>{this.state.inDatas}</p></center>
+</center>
       </div>
     )
   }

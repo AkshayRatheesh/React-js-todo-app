@@ -69,3 +69,6 @@ padding: 40px;
 .todo button:hover{
   background-color: aquamarine;
 }
+.todo H1{
+  color: rgba(255, 255, 255, 0.719);
+}
