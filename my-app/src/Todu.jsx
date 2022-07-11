@@ -48,7 +48,7 @@ export default class Todu extends Component {
                        return(
                            <li key={key}>
                                {list}
-                               <button onClick={()=>this.deleteItem(key)}>dlt</button>
+                               <button onClick={()=>this.deleteItem(key)}>Delete</button>
                            </li>
                        )
                    })
